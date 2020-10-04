@@ -36,6 +36,6 @@ if( isset($_POST['submit'])){
 	echo $result;
 	}
 else{
-	echo '<h3 style="text-align:center;">Error ( ͡° ͜ʖ ͡°)</h3>';
+	echo '<h3 style="text-align:center;">Connection Error</h3>';
 }
 ?>
