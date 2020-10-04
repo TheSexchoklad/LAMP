@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$db_name = "testdb";
+$db_name = "companyx";
 $username = "root";
 $password = "Linux4Ever!";
 $connection = null;
@@ -12,7 +12,7 @@ try{
 }
 	function saveData($name, $email, $role){
 	global $connection;
-	$query = "INSERT INTO test(name, email, role) VALUES( :name, :email, :role)";
+	$query = "INSERT INTO employees(name, email, role) VALUES( :name, :email, :role)";
 
 	$callToDb = $connection->prepare( $query );
 	$name=htmlspecialchars(strip_tags($name));
