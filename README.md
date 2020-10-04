@@ -1,4 +1,4 @@
-# LAMP
+ # LAMP
 LAMP webserver för Linux 2
 
 Test
@@ -10,3 +10,5 @@ Test med ssh dbProd Nu så!!!
 Test med git branch.
 
 Nytt test.
+
+Victoria här, har dåligt karma!!! <3
